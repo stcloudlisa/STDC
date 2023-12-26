@@ -1,0 +1,172 @@
+name: Large Dataset Datacap Application
+description: Clients should use this application form to request a DataCap allocation via a LDN for a dataset
+title: "[DataCap Application] <Organization> - <Project Name>"
+labels: 'application, Phase: Diligence'
+body:
+- type: markdown
+  attributes:
+    value: |
+      # Large Dataset Notary Application
+      To apply for DataCap to onboard your dataset to Filecoin, please fill out the following form
+- type: markdown
+  attributes:
+    value: |
+      # ST-DC
+- type: input
+  attributes:
+    label: Company name
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Social media
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Company introduction
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Requested total amount of DataCap
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Expected size of individual datasets (per copy)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Number of copies to be stored
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: DataCap allocated per week
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: On-chain address of initial allocation
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Data type of your company
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Amount of data your company
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How do you prove ownership of the data
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Please provide data use cases
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Are you applying for FIL+ or E-FIL+
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Is the data being stored on Filecoin for the first time
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Why do you want to store data on the Filecoin network
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Which regions do you want your data to be stored in
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How many backups 
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How did you learn about us
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Do you have experience with data handling
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How will you handle your data
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Please introduce your technical team
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Do you need assistance from us
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: If you already have a list of storage providers to work with, fill out their names and provider IDs below
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How will you negotiate the deals with the SPs
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: When do you expect to start
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: How long do you want to store the data
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: What retrieval frequency about your date
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Can the data be publicly retrieval 
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Can you confirm that you will follow the Fil+ guideline
+  validations:
+    required: true
